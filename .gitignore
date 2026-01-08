@@ -133,3 +133,13 @@ dmypy.json
 .DS_Store
 Thumbs.db
 
+# SSL certificates and Let's Encrypt
+nginx/ssl/
+nginx/certbot-www/
+*.pem
+*.key
+*.crt
+
+# Nginx logs
+nginx/logs/
+
